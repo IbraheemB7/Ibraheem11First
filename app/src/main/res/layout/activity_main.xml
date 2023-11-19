@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schem   as.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#EA7070"
+        android:onClick="onClickGo"
+        android:text="Press To Go"
+        android:textSize="34sp"
+        app:cornerRadius="30dp" />
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="enter your input"
+        android:inputType="textPersonName"
+        android:textColor="#CA4343"
+        android:textColorHint="#FB0606"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hello Ibraheem"
+        android:textColor="#178EED"
+        android:textColorHighlight="#3299EC"
+        android:textColorHint="#2B4AF6"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        android:onClick="onClickNext"
+        android:text="NEXT SCREEN"
+        android:textColor="#F44336"
+        android:textSize="34sp"
+        app:cornerRadius="30dp" />
+</LinearLayout>
